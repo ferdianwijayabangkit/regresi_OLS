@@ -35,20 +35,20 @@ Repositori ini menyajikan alur kerja lengkap untuk analisis regresi linier berga
 
 1.  **Unduh Repositori**: *Clone* atau unduh proyek ini ke komputer Anda.
 
-2.  **Untuk Pengguna Python (`.ipynb` atau `.py`)**:
+2.  **Untuk Pengguna Python**:
     - Buka terminal atau command prompt, lalu instal paket yang diperlukan:
       ```bash
       pip install pandas openpyxl statsmodels scipy matplotlib seaborn jupyterlab
       ```
-    - Jalankan Jupyter Lab/Notebook dan buka file Python.
+    - Jalankan Jupyter Lab/Notebook dan buka file Python (.ipynb).
     - **Penting**: Ubah `file_path` di dalam skrip agar sesuai dengan lokasi file `data_simulasi_gls.xlsx` di komputer Anda.
 
-3.  **Untuk Pengguna R (`.Rmd` atau `.R`)**:
+3.  **Untuk Pengguna R**:
     - Buka RStudio, lalu instal paket yang diperlukan dengan menjalankan perintah berikut di *console*:
       ```r
       install.packages(c("lmtest", "car", "readxl", "knitr", "rmarkdown"))
       ```
-    - Buka file `.Rmd` atau `.R`.
+    - Buka file `.md` atau `.Rmd` .
     - **Penting**: Ubah `file_path` di dalam skrip agar sesuai dengan lokasi file `data_simulasi_gls.xlsx` di komputer Anda.
 
 4.  **Jalankan Analisis**: Eksekusi semua sel (Python) atau *chunks* (R) untuk mereplikasi seluruh proses analisis.
